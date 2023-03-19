@@ -1,0 +1,34 @@
+
+.nav-link {
+    color: #FFFFFF;
+}
+
+.bgimage {
+    height:100vh;
+    background: #7D6E83 url("resourses/background.png") no-repeat right top fixed;
+    background-size: contain;
+    position:relative;   
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+.container mt-4 pt-4{
+    padding: 100px;
+}
+
+#text-tec{
+    text-align: center;
+    padding-top: 5vh;
+}
+
+#portifolio{
+    padding-top: 5vw;
+}
+
+.navbarScroll.navbarcustom {
+    background-color: #7D6E83;
+}
+.btn btn-success{
+    color: #7D6E83;
+}
