@@ -1,34 +1,74 @@
 
 .nav-link {
-    color: #FFFFFF;
+    color: white;
+}
+.nav-link:hover{
+    color: #843f9f;
 }
 
 .bgimage {
     height:100vh;
-    background: #7D6E83 url("resourses/background.png") no-repeat right top fixed;
-    background-size: contain;
-    position:relative;   
+    background-image: url("resourses/background.png"),linear-gradient(0deg, rgba(118,62,153,1) 0%, rgba(38,38,37,1) 76%);
+    background-size: cover 80vw;
+    position:relative; 
+    background-repeat: no-repeat;  
 }
 
 .imageAboutPage {
     width: 100%;
 }
-.container mt-4 pt-4{
-    padding: 100px;
+
+.navbarcustom {
+    background-color: rgb(38, 37, 37);
+}
+.btn{
+    background-color: rgb(59, 54, 54);
+}
+.btn:hover{
+    background-color: #843f9f;
+    transform: scale(1.1);
 }
 
-#text-tec{
-    text-align: center;
-    padding-top: 5vh;
+.card-img-top{
+    height: 250px;    
 }
 
-#portifolio{
-    padding-top: 5vw;
+.icons{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 5vh auto;
+   
 }
 
-.navbarScroll.navbarcustom {
-    background-color: #7D6E83;
+i:hover{
+    transform: scale(1.2);
 }
-.btn btn-success{
-    color: #7D6E83;
+.card:hover{
+    box-shadow: 1px 3px 1px #843f9f;    
 }
+
+a{
+    color: white;
+}
+a:hover{
+    color:#843f9f;
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(38, 37, 37);
+    margin-top: 50px;
+}
+#contato{
+    width: 220px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0 auto;
+    padding:10px;
+}
+
